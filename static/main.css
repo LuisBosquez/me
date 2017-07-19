@@ -1,0 +1,65 @@
+body{
+    background-color: #595959;
+}
+
+@media (max-width: 1300px) {
+    #resume{
+        margin: -28% 0 10% -48%;
+        width: 1240px;
+        height: 1754px;
+        position: absolute;
+        background: #EEF5DB;
+        top: 50%;
+        left: 50%;
+    }
+}
+@media (min-width: 1400px) {
+    #resume{
+        margin: -24% 0 10% -33%;
+        width: 1240px;
+        height: 1754px;
+        position: absolute;
+        background: #EEF5DB;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+.badges{
+    float: right;
+}
+
+.badges a{
+    color: black;
+}
+
+.badges i{
+    font-size: -webkit-xxx-large;
+    margin: 6px;
+}
+
+.section{
+    margin: 8px 4px 4px 4px;
+}
+
+#content{
+    position: relative;
+    margin: 2em 3em;
+}
+
+#title{
+    font-family: 'Cabin Sketch', sans-serif;
+    font-size: 6em;
+    margin-top: 0px;
+}
+
+#subtitle{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3em;
+    margin-top: -8px;
+    margin-left: 6px;
+}
+
+#education{
+    background-color: #a2ddf6;
+}
